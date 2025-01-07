@@ -22,7 +22,7 @@ export default function Navbar(props) {
             <a className="nav-link active" aria-current="page" href="/" style={mystyle}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/my-react-app/index" style={mystyle}>{ props.about }</a>
+            <a className="nav-link" href="/my-react-app/about" style={mystyle}>{ props.about }</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/contact" style={mystyle}>{ props.contact }</a>
