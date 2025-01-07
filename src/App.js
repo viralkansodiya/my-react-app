@@ -45,7 +45,7 @@ function App() {
       <Alert alert = {alert} />
       <BrowserRouter>
       <Routes>
-      <Route path="about" element={<Aboutus/>}></Route>                                                                                                                                                                                                                                                                     
+      <Route path="/my-react-app/about" element={<Aboutus/>}></Route>                                                                                                                                                                                                                                                                     
       <Route path="contact" element={<TextForm mode={mode} color={color}/>}></Route>
       </Routes>
       </BrowserRouter>
